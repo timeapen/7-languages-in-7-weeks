@@ -7,3 +7,5 @@
    File related code is scoped within the code block and Ruby will automatically close the file handle after the block is executed avoiding resource leaks.
 
 1. How would you translate a hash to an array? Can you translate arrays to hashes?
+
+   See [hash_array.rb](hash_array.rb) for solution.
