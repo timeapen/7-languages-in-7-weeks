@@ -1,5 +1,7 @@
 # Day 2 Exercises
 
+## Find
+
 1. Find out how to access files with and without code blocks. What is the benefit of the code block?
 
    See [file_access.rb](file_access.rb) for solution.  Using a code block allows an nice abstraction for file access in Ruby.  
@@ -18,3 +20,8 @@
    - Multi-dimensional arrays
 
    See [data_structures.rb](data_structures.rb) for examples.
+
+## Do
+1. Print the contents of an array of sixteen numbers, four numbers at a time, using just each. Now, do the same with each_slice in `Enumerable`
+
+   See [array.rb](array.rb) for examples.
