@@ -28,3 +28,9 @@ p hash.to_a.flatten
 reconstruct = hash.to_a.inject(Hash.new) { |memo, pair| memo[pair.first] = pair.last; memo }
 puts "Reconstructed array: "
 p reconstruct
+
+puts "Iterating through the hash: "
+hash["d"] = ['Sid', 'Santo']
+hash.each do |key, value|
+  puts "#{key}------#{value}"
+end

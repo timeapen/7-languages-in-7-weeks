@@ -9,3 +9,12 @@
 1. How would you translate a hash to an array? Can you translate arrays to hashes?
 
    See [hash_array.rb](hash_array.rb) for solution.
+
+1. You can use Ruby arrays as stacks. What other common data structures to arrays support?
+
+   - Lists
+   - Queues
+   - Sets
+   - Multi-dimensional arrays
+
+   See [data_structures.rb](data_structures.rb) for examples.
